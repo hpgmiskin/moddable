@@ -452,7 +452,7 @@ The Net class provides access to status information about the active network con
 
 The `get` function returns properties of the active network connection.
 
-	trace(`Connect to Wi-Fi access point: ${Net.get("SSID")\n`);
+	trace(`Connect to Wi-Fi access point: ${Net.get("SSID")}\n`);
 
 The following properties are available:
 
@@ -503,7 +503,7 @@ The following example begins the process of connecting to a Wi-Fi access point a
 			case "disconnect":
 				break;  // connection lost
 		}
-	}
+	})
 
 ### scan(dictionary, callback)
 
